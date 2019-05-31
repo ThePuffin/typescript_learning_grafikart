@@ -40,11 +40,10 @@ function isPaird(
 isPaird(2, { a: 2 });
 
 // multi type
-function isPaire(
-    nombress: number | string  ): boolean {
-        if (typeof nombress !==){
-            nombress = parseInt(nombress, 10)
-        }
-    return <number>nombress % 2 === 0; //force to use number for return
+function isPaire(nombress: number | string): boolean {
+  if (typeof nombress !== "number") {
+    nombress = parseInt(<string>nombress, 10);
   }
-  isPaire(2, { a: 2 });
+  return <number>nombress % 2 === 0; //force to use number for return
+}
+isPaire(2);

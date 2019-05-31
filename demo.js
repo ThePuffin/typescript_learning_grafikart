@@ -30,9 +30,9 @@ function isPaird(nombres, options) {
 isPaird(2, { a: 2 });
 // multi type
 function isPaire(nombress) {
-    if (typeof nombress !== ) {
+    if (typeof nombress !== "number") {
         nombress = parseInt(nombress, 10);
     }
     return nombress % 2 === 0; //force to use number for return
 }
-isPaire(2, { a: 2 });
+isPaire(2);
