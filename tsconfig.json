@@ -6,7 +6,8 @@
     },
     "module": "commonjs",
     "files": [
-        "demo.ts", "class.ts"
+        "index.ts",
+        "demo.ts", "class.ts", "module.ts"
     ],
     "exclude": [
         "node_modules"
