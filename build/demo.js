@@ -1,6 +1,6 @@
-var a;
+let a;
 a = "0";
-var b = 456;
+let b = 456;
 // b = "truc";   // impossible
 function isPair(nombre) {
     return nombre % 2 === 0;
@@ -8,10 +8,9 @@ function isPair(nombre) {
 console.log(isPair(b));
 function salut(t) {
     //function salut(t: string[]) {
-    var out = [];
-    for (var _i = 0, t_1 = t; _i < t_1.length; _i++) {
-        var item = t_1[_i];
-        out.push("Salut " + item);
+    let out = [];
+    for (let item of t) {
+        out.push(`Salut ${item}`);
     }
     return out;
 }
