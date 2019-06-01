@@ -24,3 +24,11 @@ il est possible d'avoir plusieurs types : "number | string | ..."
 pour les classes, une variable peut être public, private ou protected;
 
 une fonction peut être public, private, static
+
+pour utiliser une librairie externe, il faut la déclarer dans un fichier
+https://github.com/DefinitelyTyped/DefinitelyTyped pour les modules importants
+par exemple pour jquery, on peut utiliser : "sudo typings install dt~jquery --global"
+
+declare let \$: JQueryStatic;
+
+ou import \$ = require('jquery') après avoir déclarer jquery et fait un npm i jquery

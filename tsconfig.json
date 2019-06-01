@@ -8,7 +8,11 @@
     "module": "commonjs",
     "files": [
         "index.ts",
-        "demo.ts", "class.ts", "module.ts"
+        "demo.ts",
+        "scrollTo.d.ts",
+        "class.ts",
+        "module.ts",
+        "typings/index.d.ts" // permet de declarer jquery
     ],
     "exclude": [
         "node_modules"
