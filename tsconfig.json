@@ -2,7 +2,8 @@
     "compilerOptions": {
         "target": "es6",
         "pretty": true,
-        "outDir": "./build"
+        "outDir": "./build",
+        "experimentalDecorators": true,
     },
     "module": "commonjs",
     "files": [
