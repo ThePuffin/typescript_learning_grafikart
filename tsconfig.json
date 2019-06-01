@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "pretty": true,
+        "outDir": "./build"
+    },
+    "module": "commonjs",
+    "files": [
+        "demo.ts", "class.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
